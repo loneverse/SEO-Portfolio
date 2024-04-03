@@ -116,11 +116,11 @@ p {
 
 .email-link {
   color: #fff;
-  background-color: #007bff;
+  background-color: #343a40;
 }
 
 .email-link:hover {
-  background-color: #0056b3;
+  background-color: #343a40;
 }
 
 .social-link {
@@ -155,5 +155,64 @@ p {
 
 .email-link i {
   margin-right: 0.5rem;
-  color: #007bff;
+  color: #343a40;
+}
+.contact-section {
+  background-color: #f8f9fa;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.contact-heading {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #343a40;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.email-link,
+.phone-link,
+.social-link {
+  font-size: 1.2rem;
+  text-decoration: none;
+  margin: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.25rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.email-link,
+.phone-link {
+  color: #fff;
+  background-color: #343a40;
+}
+
+.email-link:hover,
+.phone-link:hover {
+  color: #343a40;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+}
+
+.social-link {
+  color: #343a40;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+}
+
+.social-link:hover {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.email-link i,
+.phone-link i,
+.social-link i {
+  margin-right: 0.5rem;
 }
